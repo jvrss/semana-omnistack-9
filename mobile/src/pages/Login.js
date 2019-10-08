@@ -12,7 +12,7 @@ export default function Login({ navigation }){
     useEffect(() => {
         AsyncStorage.getItem('user').then(user => {
             if(user){
-                navigation.navigation('List');
+                navigation.navigate('List');
             }
         })
     }, []);
