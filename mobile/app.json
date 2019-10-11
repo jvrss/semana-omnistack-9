@@ -23,6 +23,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.omnistack"
+    },
     "android": {
       "package": "com.yourcompany.omnistack"
     }
